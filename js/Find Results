@@ -1,0 +1,95 @@
+Searching 67 files for "navbar-shrink"
+
+/Users/puneet/Dropbox/Webpage/css/agency.css:
+  252      }
+  253  
+  254:     .navbar-default.navbar-shrink {
+  255          padding: 10px 0;
+  256          background-color: #FAEBD8;
+  257      }
+  258  
+  259:     .navbar-default.navbar-shrink .navbar-brand {
+  260          font-size: 1.5em;
+  261      }
+
+/Users/puneet/Dropbox/Webpage/js/cbpAnimatedHeader.js:
+   28  		var sy = scrollY();
+   29  		if ( sy >= changeHeaderOn ) {
+   30: 			classie.add( header, 'navbar-shrink' );
+   31  		}
+   32  		else {
+   33: 			classie.remove( header, 'navbar-shrink' );
+   34  		}
+   35  		didScroll = false;
+
+/Users/puneet/Dropbox/Webpage/js/cbpAnimatedHeader.min.js:
+    9   * http://www.codrops.com
+   10   */
+   11: var cbpAnimatedHeader=(function(){var b=document.documentElement,g=document.querySelector(".navbar-default"),e=false,a=300;function f(){window.addEventListener("scroll",function(h){if(!e){e=true;setTimeout(d,250)}},false)}function d(){var h=c();if(h>=a){classie.add(g,"navbar-shrink")}else{classie.remove(g,"navbar-shrink")}e=false}function c(){return window.pageYOffset||b.scrollTop}f()})();
+   12  
+
+/Users/puneet/Dropbox/Webpage/less/agency.less:
+  153  		}
+  154      }
+  155:     .navbar-default.navbar-shrink {
+  156      	background-color: @gray-darkest;
+  157          padding: 10px 0;
+
+7 matches across 4 files
+
+ 67 files for "navbar-shrink"
+
+/Users/puneet/Dropbox/Webpage/css/agency.css:
+  252      }
+  253  
+  254:     .navbar-default.navbar-shrink {
+  255          padding: 10px 0;
+  256          background-color: #FAEBD8;
+  257      }
+  258  
+  259:     .navbar-default.navbar-shrink .navbar-brand {
+  260          font-size: 1.5em;
+  261      }
+
+/Users/puneet/Dropbox/Webpage/js/cbpAnimatedHeader.js:
+   28  		var sy = scrollY();
+   29  		if ( sy >= changeHeaderOn ) {
+   30: 			classie.add( header, 'navbar-shrink' );
+   31  		}
+   32  		else {
+   33: 			classie.remove( header, 'navbar-shrink' );
+   34  		}
+   35  		didScroll = false;
+
+/Users/puneet/Dropbox/Webpage/js/cbpAnimatedHeader.min.js:
+    9   * http://www.codrops.com
+   10   */
+   11: var cbpAnimatedHeader=(function(){var b=document.documentElement,g=document.querySelector(".navbar-default"),e=false,a=300;function f(){window.addEventListener("scroll",function(h){if(!e){e=true;setTimeout(d,250)}},false)}function d(){var h=c();if(h>=a){classie.add(g,"navbar-shrink")}else{classie.remove(g,"navbar-shrink")}e=false}function c(){return window.pageYOffset||b.scrollTop}f()})();
+   12  
+
+/Users/puneet/Dropbox/Webpage/less/agency.less:
+  153  		}
+  154      }
+  155:     .navbar-default.navbar-shrink {
+  156      	background-color: @gray-darkest;
+  157          padding: 10px 0;
+
+7 matches across 4 files
+
+
+Searching 67 files for "changeHeaderOn"
+
+/Users/puneet/Dropbox/Webpage/js/cbpAnimatedHeader.js:
+   14  		header = document.querySelector( '.navbar-default' ),
+   15  		didScroll = false,
+   16: 		changeHeaderOn = 200;
+   17  
+   18  	function init() {
+   ..
+   27  	function scrollPage() {
+   28  		var sy = scrollY();
+   29: 		if ( sy >= changeHeaderOn ) {
+   30  			classie.add( header, 'navbar-shrink' );
+   31  		}
+
+2 matches in 1 file
