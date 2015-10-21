@@ -34,7 +34,7 @@ a.active {
 }
 
 a {
-    color: #f8a60f;
+    color:  #6F3C07;
 }
 
 a:hover,
@@ -73,7 +73,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #ffffff;
-    background-color: #f8a60f;
+    background-color:  #6F3C07;
 }
 
 .btn-primary:hover,
@@ -81,9 +81,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f8360f;
+    border-color: #6F3C07;
     color: #ffffff;
-    background-color: #f8a60f;
+    background-color: #6F3C07;
 }
 
 .btn-primary:active,
@@ -320,7 +320,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 section h2.section-heading {
@@ -340,7 +340,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 50px 0;
+        padding: 40px 0;
     }
 }
 
@@ -751,10 +751,11 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color:  #FFF;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+    color: #111111;
 }
 
 ul.social-buttons li a:hover,
@@ -882,6 +883,29 @@ body {
 .thakar-img{
     width:25%;
     height: auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.contact{
+    color: #fff;
+}
+
+.cv-container{
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.cv-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
